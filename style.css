@@ -27,6 +27,7 @@ p, h1, h2, h3 {
 }
 
 p {
+<<<<<<< HEAD
     font-size: 1.25rem;
     line-height: 1.3;
 }
@@ -63,17 +64,40 @@ p {
     color: rgb(250, 233, 233);
     text-transform: uppercase;
     border: solid transparent;
+=======
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu a {
+    background:var(--cor-azul);
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: rgb(250, 233, 233);
+    text-transform: uppercase;
+>>>>>>> e624555eda323151d280a3fda4487afec46c9406
 }
 
 .menu a:hover {
     background: var(--hover-botao);
     color: var(--cor-fonte-botao);
     text-decoration: underline 2px;
+<<<<<<< HEAD
     border: solid;
+=======
+>>>>>>> e624555eda323151d280a3fda4487afec46c9406
 
 }
 
 .conteudo {
+<<<<<<< HEAD
     margin: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -85,17 +109,28 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1000px;
+=======
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    
+>>>>>>> e624555eda323151d280a3fda4487afec46c9406
 }
 
 .inicial-site {
     background: rgb(224, 221, 221);
+<<<<<<< HEAD
     padding: 2.2rem;
+=======
+    padding: 40px;
+>>>>>>> e624555eda323151d280a3fda4487afec46c9406
     text-align: right;
     position: relative;
     display: grid;
     align-content: center;
     gap: 20px;
     justify-items: end;
+<<<<<<< HEAD
 }
 
 .inicial-site h1{
@@ -104,6 +139,12 @@ p {
 
 .inicial-site::before{
     content: "";
+=======
+
+}
+
+.detalhe{
+>>>>>>> e624555eda323151d280a3fda4487afec46c9406
     width: 60px;
     height: 4px;
     background: #43478bf8;
@@ -112,6 +153,7 @@ p {
     right: -30px;
 }
 
+<<<<<<< HEAD
 /* Auxilio com a imagem responsiva */
 .img-princ img{
     object-fit: cover;
@@ -125,11 +167,20 @@ p {
     border-radius: 4px;
     text-transform: uppercase;
     border: solid transparent;
+=======
+.botao {
+    background: var(--cor-azul);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+>>>>>>> e624555eda323151d280a3fda4487afec46c9406
 }
 
 .botao:hover{
     background: var(--hover-botao);
     color: silver;
+<<<<<<< HEAD
     border: solid rgb(82, 80, 80);
 }
 
@@ -140,10 +191,35 @@ p {
     text-align: right;
     padding: 12rem 1rem;
     background-image: url(./img/fundo.png);
+=======
+}
+
+.subtitulo {
+    font-size: 64px;
+    text-transform: uppercase;
+    color: rgb(85, 82, 82);
+    text-align: right;
+    padding: 40px;
+    align-self: left;
+}
+
+.det-sub summary{
+    font-size: 15px;
+    color: rgb(163, 160, 160);
+    margin-bottom: 15px;
+}
+
+.det-sub p{
+    margin-top: 4px;
+    font-size: 20px;
+    color: silver;
+    text-align: left;
+>>>>>>> e624555eda323151d280a3fda4487afec46c9406
 }
 
 .vantagens {
     background: rgb(224, 221, 221);
+<<<<<<< HEAD
     list-style: none;
     margin: 0px;
 }
@@ -181,6 +257,30 @@ p {
 .vantagens li{
     margin-top: 1rem;
     margin-bottom: 1rem;
+=======
+    padding: 10px;
+}
+
+.vantagens-itens {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 5px 25px;
+    padding: 10px;
+}
+
+.vantagens img{
+    max-width: 35px;
+}
+
+.vantagens-itens h3{
+    align-self: center;
+    text-decoration: underline 3px;
+    text-transform: uppercase;
+}
+
+.vantagens-itens p{
+    grid-column: 2;
+>>>>>>> e624555eda323151d280a3fda4487afec46c9406
 }
 
 .rodape {
@@ -190,6 +290,7 @@ p {
     padding: 15px;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 /* @media (max-width: 1100px){
      .inicial-site p{
@@ -245,3 +346,5 @@ p {
         gap: 30px;
     }
 }
+=======
+>>>>>>> e624555eda323151d280a3fda4487afec46c9406
