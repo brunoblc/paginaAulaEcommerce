@@ -9,7 +9,7 @@ body {
     margin: 0px;
     background: rgb(24, 23, 23);
     display: grid;
-    gap: 60px;
+    gap: 30px;
     justify-items: center;
 }
 
@@ -185,9 +185,9 @@ p {
 
 .rodape {
     background: rgb(230, 230, 230);
-    width: 100%;
+    width: 1000px;
     text-align: center;
-    padding: 15px;
+    padding: 0.6rem;
     box-sizing: border-box;
 }
 
@@ -200,6 +200,10 @@ p {
     .subtitulo {
         text-align: center;
         font-size: 3rem;
+    }
+
+    body{
+        gap: 30px;
     }
 }
 
@@ -223,6 +227,14 @@ p {
     .subtitulo{
         font-size: 3rem;
         text-align: center;
+    }
+
+    .rodape{
+        width: 930px;
+    }
+
+    body{
+        gap: 30px;
     }
 
 }
